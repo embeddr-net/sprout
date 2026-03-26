@@ -1,5 +1,7 @@
 {
-  "name": "embeddr-registry-ui",
+  "name": "@embeddr/sprout",
+  "version": "0.2.0-alpha.1",
+  "description": "Embeddr Sprout — lightweight Zen Shell client for Embeddr",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@embeddr/client-typescript": "link:/home/user/git/embeddr-net/clients/client-typescript",
-    "@embeddr/react-ui": "link:/home/user/git/embeddr-net/embeddr-react-ui",
-    "@embeddr/zen-shell": "link:/home/user/git/embeddr-net/embeddr-zen-shell",
+    "@embeddr/client-typescript": "github:embeddr-net/client-typescript#v0.2.0-alpha.1",
+    "@embeddr/react-ui": "^0.2.0-alpha.1",
+    "@embeddr/zen-shell": "github:embeddr-net/zen-shell#v0.2.0-alpha.1",
     "@fontsource-variable/jetbrains-mono": "^5.2.8",
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-query": "^5.66.5",
